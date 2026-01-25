@@ -35,3 +35,29 @@ Used for API calls in React:
 useEffect(() => {
   fetchData();
 }, []);
+
+
+
+Closure
+
+Used in:
+counters
+private variables
+debounce/throttle
+
+Event Loop
+
+Priority:
+
+Call stack
+Microtask queue (Promise)
+Macrotask queue (setTimeout)
+
+Debounce vs Throttle
+
+Debounce → search input
+Throttle → scroll, resize
+
+call/apply/bind
+
+Used when changing this
