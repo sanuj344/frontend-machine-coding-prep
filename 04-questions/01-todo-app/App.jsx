@@ -16,7 +16,7 @@ useEffect(()=>{
     if(stored){
         setTodos(JSON.parse(stored));
     }
-})
+},[]);
   /*********************************
     SAVE TO LOCAL STORAGE
   *********************************/
